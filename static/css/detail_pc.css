@@ -1,0 +1,15 @@
+.ayi-d-contain { width: 1200px; margin: 0 auto; }
+.ayi-d-contain .ayi-d-c-left { width: 840px; float: left; }
+.ayi-d-contain .ayi-d-c-left .a-d-article { padding: 25px; background-color: #fff; border-radius: 5px; }
+.ayi-d-contain .ayi-d-c-left .a-d-article .title { font-size: 22px; margin-top: 5px; line-height: 1.4; }
+.ayi-d-contain .ayi-d-c-left .a-d-article .post-msg { height: 40px; font-size: 14px; line-height: 1.5; position: relative; margin-bottom: 30px; }
+.ayi-d-contain .ayi-d-c-left .a-d-article .post-msg .post-meta-items { position: absolute; right: 0; bottom: 0; }
+.ayi-d-contain .ayi-d-c-left .a-d-article .post-msg .post-meta-items .post-meta-item { color: #c9ccd0; margin-left: 8px; display: inline-block; vertical-align: middle; }
+.ayi-d-contain .ayi-d-c-left .a-d-article .taglist { border-top: 1px solid #eee; padding-top: 12px; font-size: 14px; color: #878e9a; line-height: 1.8; margin-top: 20px; }
+.ayi-d-contain .ayi-d-c-left .a-d-article .taglist a { display: inline-block; background-color: #f2f5fb; border-radius: 2px; margin-right: 10px; padding: 3px 10px; color: #878e9a; }
+.ayi-d-contain .ayi-d-c-left .a-d-article .taglist a:hover { background-color: #5079b7; color: #fff; }
+.ayi-d-contain .ayi-d-c-left .a-d-article .ayi-pay .s-author { margin-top: 30px; background-color: #f2f5fb; text-align: center; padding: 25px; border-radius: 5px; }
+.ayi-d-contain .ayi-d-c-left .a-d-article .ayi-pay button { border-radius: 999em; background-color: #5079b7; color: #fff; border: 1px solid #5079b7; padding: 0 14px; margin-top: 20px; font-size: 14px; height: 32px; line-height: 31px; cursor: pointer; fill: #fff; }
+.ayi-d-contain .ayi-d-c-left .ayi-other-area { padding: 25px; border-radius: 5px; margin-top: 20px; background-color: #fff; }
+.ayi-d-contain .ayi-d-c-left .ayi-other-area .comment-list-header .title { border-left: 4px solid #5079b7; display: inline-block; line-height: 1.2; padding-left: 4px; }
+.ayi-d-contain .ayi-d-c-right { width: 335px; float: right; }

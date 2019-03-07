@@ -1,0 +1,14 @@
+.container { width: 1200px; margin: 0 auto; }
+.container .ayi-c-list-title { font-size: 16px; margin-bottom: 10px; border-left: 4px solid #5079b7; padding-left: 4px; line-height: 1; font-weight: 400; }
+.container .ayi-c-list { letter-spacing: -.8em; background-color: #fff; }
+.container .ayi-c-list .ayi-c-list-item { letter-spacing: 0; width: 50%; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; display: inline-block; vertical-align: top; margin-bottom: 40px; padding: 20px; line-height: 1.8; }
+.container .ayi-c-list .ayi-c-list-item .ayi-c-item-image { height: 170px; }
+.container .ayi-c-list .ayi-c-list-item .ayi-c-item-image img { -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; }
+.container .ayi-c-list .title { font-size: 20px; font-weight: 600; margin-top: 10px; }
+.container .ayi-c-list .title a { color: #666; }
+.container .ayi-c-list .des, .container .ayi-c-list .meta { font-size: 14px; color: #a5aab0; margin-bottom: 10px; }
+.container .ayi-c-list .meta .ayi-right { float: right; }
+.container .ayi-c-list .meta .ayi-right a { color: #5079b7; fill: #5079b7; }
+.container .ayi-c-list .list { border: 1px dashed #ddd; font-size: 14px; padding: 10px 15px; }
+.container .ayi-c-list .list .list-item a { color: #666; }
+.container .ayi-c-list .list .list-item:hover a { color: #5079b7; }
