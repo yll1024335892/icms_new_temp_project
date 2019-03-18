@@ -12,7 +12,8 @@
          <!--{iCMS:public:ui}-->
     <link href="<!--{$site.urls.tpl}-->/static/css/index_pc.css" rel="stylesheet" type="text/css"/>
     <link href="<!--{$site.urls.tpl}-->/static/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-    <script type="text/javascript" src="<!--{$site.urls.tpl}-->/js/jquery.bxslider.js"></script>
+    <script type="text/javascript" src="<!--{$site.urls.tpl}-->/static/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="<!--{$site.urls.tpl}-->/static/js/jquery.bxslider.js"></script>
 </head>
 <body>
 <div class="ayi-contain">
@@ -164,6 +165,24 @@
         </div>
     </div>
 </div>
+<script type="text/javascript">
+    $(function () {
+        $(".ayi-homeTab span").each(function (index) {
+            $(this).click(function () {
+                $(".ayi-homeTab span").removeClass("is-active");
+                $(".ayi-homeTab span").eq(index).addClass("is-active");
+            });
+        });
 
+        $(".ayi-subnav-ul li.menu-item").each(function (index) {
+            $(this).hover(function () {
+                $(".ayi-subnav-ul li .sub-menu").css("display","none");
+                $(".ayi-subnav-ul li.menu-item").eq(index).find(".sub-menu").css("display","block");
+            },function () {
+                $(".ayi-subnav-ul li .sub-menu").css("display","none");
+            })
+        });
+    });
+</script>
 </body>
 </html>
